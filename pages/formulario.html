@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alura Geek</title>
+
+  <link rel="stylesheet" href="../css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="contenedorHeader">
+      <h1><img src="../img/Logo1.png" alt="Logo" class="logo"></h1>
+      <nav class="encabezado">
+      <ul class="navegacion">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./formulario.html">Agregar Producto</a></li>
+          <ul/>
+        </nav>
+      </div>
+  </header>
+  <main class="contenedorPrincipalFormulario">
+    
+      <h1 class="tituloFormulario">Agregar producto:</h1>
+      <form class="form" data-form >
+      <label class="lb" for="nome">Nombre:</label>
+      <input name="name" id="name" type="text" class="infos" placeholder="Nombre..." data-name>
+
+      <label for="price" class="lb">Precio:</label>
+      <input name="price" id="price" type="text" class="infos" placeholder="Precio..." data-price>
+
+      <label for="image" class="lb">Imagen:</label>
+      <input name="image" id="image" type="text" class="infos" placeholder="Imagen (url)..." data-image>
+
+      <button id="send" type="submit">Enviar</button>
+      <button id="limpar" type="button" data-limpiar>Limpiar</button>
+    </form>
+
+  </main>
+  <footer class="footer">
+    <img src="../img/Logo1.png" alt="Logo" class="logo">
+    <p>Desarrollado por Leticia A Dimotta</p>
+    <p>ALURA LATAM - 2024</p>
+
+  </footer>
+  <script src="../js/controllers/main.js" type="module"></script>
+</body>
+</html>
